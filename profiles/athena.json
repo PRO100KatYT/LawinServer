@@ -45347,18 +45347,7 @@
         "level": 1,
         "item_seen": true,
         "xp": 0,
-        "variants": [
-          {
-            "channel": "Parts",
-            "active": "Stage1",
-            "owned": [
-              "Stage1",
-              "Stage2",
-              "Stage3",
-              "Stage4"
-            ]
-          }
-        ],
+        "variants": [],
         "favorite": false
       },
       "quantity": 1
