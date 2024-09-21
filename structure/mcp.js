@@ -105,6 +105,31 @@ express.post("/fortnite/api/game/v2/profile/*/client/SetAffiliateName", async (r
     res.end();
 });
 
+express.post("/fortnite/api/game/v2/profile/*/dedicated_server/*", async (req, res) => {
+    const profile = require(`./../profiles/${req.query.profileId || "athena"}.json`);
+    // do not change any of these or you will end up breaking it
+    var ApplyProfileChanges = [];
+    var BaseRevision = profile.rvn || 0;
+    var QueryRevision = req.query.rvn || -1;
+    // this doesn't work properly on version v12.20 and above but whatever
+    if (QueryRevision != BaseRevision) {
+        ApplyProfileChanges = [{
+            "changeType": "fullProfileUpdate",
+            "profile": profile
+        }];
+    }
+    res.json({
+        "profileRevision": profile.rvn || 0,
+        "profileId": req.query.profileId || "athena",
+        "profileChangesBaseRevision": BaseRevision,
+        "profileChanges": ApplyProfileChanges,
+        "profileCommandRevision": profile.commandRevision || 0,
+        "serverTime": new Date().toISOString(),
+        "responseVersion": 1
+    })
+    res.end();
+});
+
 // Set STW banner
 express.post("/fortnite/api/game/v2/profile/*/client/SetHomebaseBanner", async (req, res) => {
     const profile = require(`./../profiles/${req.query.profileId || "profile0"}.json`);

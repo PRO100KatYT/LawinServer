@@ -36343,19 +36343,7 @@
         "level": 1,
         "item_seen": true,
         "xp": 0,
-        "variants": [
-          {
-            "channel": "Material",
-            "active": "Mat1",
-            "owned": [
-              "Mat1",
-              "Mat2",
-              "Mat3",
-              "Mat4",
-              "Mat5"
-            ]
-          }
-        ],
+        "variants": [],
         "favorite": false
       },
       "quantity": 1
@@ -40117,16 +40105,7 @@
         "level": 1,
         "item_seen": true,
         "xp": 0,
-        "variants": [
-          {
-            "channel": "Parts",
-            "active": "Stage1",
-            "owned": [
-              "Stage1",
-              "Stage2"
-            ]
-          }
-        ],
+        "variants": [],
         "favorite": false
       },
       "quantity": 1
