@@ -147152,7 +147152,7 @@
   "stats": {
     "attributes": {
       "past_seasons": [],
-      "season_match_boost": 999999999,
+      "season_match_boost": 0,
       "loadouts": [
         "lawin-loadout"
       ],
