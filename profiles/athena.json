@@ -146404,7 +146404,16 @@
         "level": 1,
         "item_seen": 1,
         "xp": 0,
-        "variants": [],
+        "variants": [
+          {
+            "channel": "Material",
+            "active": "Mat1",
+            "owned": [
+              "Mat1",
+              "Mat2"
+            ]
+          }
+        ],
         "favorite": false
       },
       "quantity": 1
