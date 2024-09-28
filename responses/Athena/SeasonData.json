@@ -52,5 +52,29 @@
     "battlePassTier": 1,
     "battlePassXPBoost": 0,
     "battlePassXPFriendBoost": 0
+  },
+  "Season11": {
+    "battlePassPurchased": false,
+    "battlePassTier": 1,
+    "battlePassXPBoost": 0,
+    "battlePassXPFriendBoost": 0
+  },
+  "Season12": {
+    "battlePassPurchased": false,
+    "battlePassTier": 1,
+    "battlePassXPBoost": 0,
+    "battlePassXPFriendBoost": 0
+  },
+  "Season13": {
+    "battlePassPurchased": false,
+    "battlePassTier": 1,
+    "battlePassXPBoost": 0,
+    "battlePassXPFriendBoost": 0
+  },
+  "Season16": {
+    "battlePassPurchased": false,
+    "battlePassTier": 1,
+    "battlePassXPBoost": 0,
+    "battlePassXPFriendBoost": 0
   }
 }
