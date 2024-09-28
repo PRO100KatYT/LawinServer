@@ -70,5 +70,11 @@
     "battlePassTier": 1,
     "battlePassXPBoost": 0,
     "battlePassXPFriendBoost": 0
+  },
+  "Season16": {
+    "battlePassPurchased": false,
+    "battlePassTier": 1,
+    "battlePassXPBoost": 0,
+    "battlePassXPFriendBoost": 0
   }
 }
