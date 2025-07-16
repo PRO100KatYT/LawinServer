@@ -6,6 +6,8 @@
 </div>
 <br>
 
+# For latest commits, visit the main repo. I don't make commits on this fork anymore.
+
 ## Credits
 | Name | Contributions |
 | --------------- | ----------- |
